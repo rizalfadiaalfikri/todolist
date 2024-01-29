@@ -1,13 +1,13 @@
-package com.lelouch.todolist;
+package com.rizalfadiaalfikri.library;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TodolistApplicationTests {
+class LibraryApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
