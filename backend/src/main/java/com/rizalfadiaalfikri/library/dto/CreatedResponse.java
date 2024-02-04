@@ -1,6 +1,6 @@
 package com.rizalfadiaalfikri.library.dto;
 
-import java.util.List;
+import com.rizalfadiaalfikri.library.entity.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,10 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class HttpResponse {
-
+public class CreatedResponse {
     private String status;
     private String message;
     private List data;
-
 }
